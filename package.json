@@ -1,0 +1,19 @@
+{
+  "name": "llm-api-bypass",
+  "version": "0.1.0",
+  "description": "Protocol conversion gateway for OpenAI and Anthropic style LLM APIs.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=25.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
